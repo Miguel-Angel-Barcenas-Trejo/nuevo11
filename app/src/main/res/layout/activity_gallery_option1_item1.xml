@@ -7,4 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".GalleryOption1Item1Activity">
 
+    <Button
+        android:id="@+id/btn_home"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/flecha_desplegable"
+        android:drawablePadding="16dp"
+        android:text="Mantenimiento preventivo     "
+        android:textAllCaps="false"
+        android:textColor="#0D47A1"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="162dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

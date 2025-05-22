@@ -17,7 +17,11 @@ class reporte2 : AppCompatActivity() {
         val etFecha = findViewById<EditText>(R.id.etFecha)
         val etReporte = findViewById<EditText>(R.id.etReporte)
         val etTurno = findViewById<EditText>(R.id.etTurno)
-        val etMaquina = findViewById<EditText>(R.id.etMaquina)
+        val buttonText = intent.getStringExtra("buttonText") ?: "Sin título" // Obtener el texto del botón presionado
+        val etMaquina = findViewById<EditText>(R.id.etMaquina) // Referencia al EditText
+
+        etMaquina.setText(buttonText) // Establecer el nombre del botón como texto del EditText
+
         val etResponsable = findViewById<EditText>(R.id.etResponsable)
         val etTipoReporte = findViewById<EditText>(R.id.etTipoReporte)
         val etParoMaquina = findViewById<EditText>(R.id.etParoMaquina)
@@ -31,7 +35,7 @@ class reporte2 : AppCompatActivity() {
         val etRequerimientos = findViewById<EditText>(R.id.etRequerimientos)
         val etObservaciones = findViewById<EditText>(R.id.etObservaciones)
 
-        val btnEnviarCorreo = findViewById<Button>(R.id.btnEnviarCorreo)
+        val btnEnviarCorreo = findViewById<Button>(R.id.btnDescargar)
 
         // Configurar la lógica para los botones
         btnEnviarCorreo.setOnClickListener {
@@ -39,3 +43,4 @@ class reporte2 : AppCompatActivity() {
         }
     }
 }
+

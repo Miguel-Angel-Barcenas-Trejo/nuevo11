@@ -106,6 +106,8 @@ class MainActivity : AppCompatActivity() {
     fun toggleGalleryMenu(view: View) = toggleSubmenu(R.id.gallery_submenu)
     fun toggleGalleryOption1Menu(view: View) = toggleSubmenu(R.id.gallery_option1_submenu)
     fun toggleGalleryOption2Menu(view: View) = toggleSubmenu(R.id.gallery_option2_submenu)
+    fun toggleGalleryOption3Menu(view: View) = toggleSubmenu(R.id.gallery_option3_submenu)
+    fun toggleGalleryOption4Menu(view: View) = toggleSubmenu(R.id.gallery_option4_submenu)
     fun toggleSlideshowMenu(view: View) = toggleSubmenu(R.id.slideshow_submenu)
     fun navigateToSlideshowOption1(view: View) = navigateToActivity(view)
     fun navigateToSlideshowOption2(view: View) = navigateToActivity(view)
@@ -129,11 +131,19 @@ class MainActivity : AppCompatActivity() {
             R.id.btn_slideshow_option1 -> SlideshowOption1Activity::class.java
             R.id.btn_slideshow_option2 -> SlideshowOption2Activity::class.java
             // Default
-            else -> DefaultActivity::class.java
+            else -> reporte2::class.java
         }
-        startActivity(Intent(this, destination))
+        // Crear el Intent y pasar el texto del botón
+        val intent = Intent(this, destination)
+        intent.putExtra("buttonText", (view as Button).text.toString()) // Enviar el texto del botón
+
+        startActivity(intent)
     }
     // ======================================================
     // FIN DE LAS SECCIONES DE MANEJO DE MENÚS Y NAVEGACIÓN
     // ======================================================
 }
+
+
+
+

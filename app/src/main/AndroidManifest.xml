@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VCLaminationsMantenimiento"
+
         tools:targetApi="31">
         <activity
             android:name=".SlideshowOption2Activity"
@@ -53,7 +54,9 @@
             android:exported="false" />
         <activity
             android:name=".reporte2"
-            android:exported="false" /> <!-- Login por correo - Establecer como primera pantalla............................................... -->
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <!-- Login por correo - Establecer como primera pantalla............................... -->
         <activity
             android:name=".LoginEmail"
             android:exported="true">
@@ -71,3 +74,4 @@
     </application>
 
 </manifest>
+

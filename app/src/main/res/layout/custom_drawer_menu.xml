@@ -110,7 +110,164 @@
                         android:onClick="navigateToActivity"
                         android:gravity="start"
                         android:paddingStart="32dp"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item5"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-60"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item6"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA AIDA"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item7"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA BLISS"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item8"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item9"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item10"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item11"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M125-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item12"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M125-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item13"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 150-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item14"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 150-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item15"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MINSTER 150-C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item16"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 200-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_home_option1_item17"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 200-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
                 </LinearLayout>
+
 
                 <!-- Opción 2 de Home -->
                 <Button
@@ -357,7 +514,7 @@
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Prensas troqueladoras"
+                    android:text="   Prensas troqueladoras"
                     android:drawableLeft="@drawable/troque33"
                     android:gravity="start"
                     android:textAllCaps="false"
@@ -377,7 +534,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 1"
+                        android:text="PRENSA MINSTER 30"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -386,7 +546,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 2"
+                        android:text="PRENSA PULSAR 30-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -395,7 +558,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 3"
+                        android:text="PRENSA PULSAR 30-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -404,7 +570,166 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 4"
+                        android:text="PRENSA PULSAR 30-C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item5"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-60"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item6"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA AIDA"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item7"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA BLISS"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item8"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item9"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item10"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M-100-C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item11"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M125-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item12"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA M125-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item13"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 150-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item14"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 150-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item15"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MINSTER 150-C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item16"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 200-A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option1_item17"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PRENSA 200-B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
                 </LinearLayout>
@@ -415,7 +740,7 @@
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Maquinas de corte"
+                    android:text="   Maquinas de corte"
                     android:drawableLeft="@drawable/troque33"
                     android:gravity="start"
                     android:textAllCaps="false"
@@ -435,7 +760,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 1"
+                        android:text="PRENSA CTL A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -444,7 +772,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 2"
+                        android:text="PRENSA CTL B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -453,7 +784,10 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 3"
+                        android:text="PRENSA CTL C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
 
@@ -462,7 +796,46 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 4"
+                        android:text="AEM UNICORE A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option2_item5"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AEM UNICORE B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option2_item6"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AEM UNICORE C"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option2_item7"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MAQUINA STEP LAP"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
                 </LinearLayout>
@@ -473,11 +846,11 @@
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cortadoras de alambre"
+                    android:text="   Cortadoras de alambre"
                     android:drawableLeft="@drawable/troque33"
                     android:gravity="start"
                     android:textAllCaps="false"
-                    android:onClick="toggleGalleryOption1Menu"/>
+                    android:onClick="toggleGalleryOption3Menu"/>
 
                 <!-- Submenú de Opción 3 (inicialmente oculto) -->
                 <LinearLayout
@@ -493,7 +866,22 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 1"
+                        android:text="Maquina de alambre nueva"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option3_item2"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maquina de alambre vieja"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
                 </LinearLayout>
@@ -504,11 +892,11 @@
                     style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Prens./planch. hidraulicas"
+                    android:text="   Prens./planch. hidraulicas"
                     android:drawableLeft="@drawable/troque33"
                     android:gravity="start"
                     android:textAllCaps="false"
-                    android:onClick="toggleGalleryOption1Menu"/>
+                    android:onClick="toggleGalleryOption4Menu"/>
 
                 <!-- Submenú de Opción 1 (inicialmente oculto) -->
                 <LinearLayout
@@ -524,7 +912,34 @@
                         style="@style/Widget.MaterialComponents.Button.TextButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Item 1"
+                        android:text="Prensa hidraulica automatica A"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option4_item2"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prensa hidraulica automatica B"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
+                        android:textAllCaps="false"
+                        android:onClick="navigateToActivity"/>
+
+                    <Button
+                        android:id="@+id/btn_gallery_option4_item3"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prensa hidraulica manual"
+                        android:drawableLeft="@drawable/adelante2"
+                        android:gravity="start"
+                        android:paddingStart="32dp"
                         android:textAllCaps="false"
                         android:onClick="navigateToActivity"/>
                 </LinearLayout>
